@@ -156,25 +156,3 @@ Validate the frontend production bundle with:
 cd frontend
 npm.cmd run build
 ```
-
-## Future improvements
-
-- Email reminders
-- Multi-currency conversion with explicit exchange-rate snapshots
-- Dark theme
-- Mobile app
-- Bank integration
-- Subscription cancellation recommendations
-
-## Publish to GitHub
-
-Create an empty repository on GitHub, then run from this directory:
-
-```bash
-git init
-git add .
-git commit -m "feat: build fullstack subscription tracker"
-git branch -M main
-git remote add origin https://github.com/<username>/subscription-tracker.git
-git push -u origin main
-```
